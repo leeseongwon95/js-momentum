@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Something</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="js-clock">
+        <h1>00:00</h1>
+      </div>
+      <span class="js-weather weather"></span>
+    </div>
+    <div class="name">
+      <form class="js-form form">
+        <input class="nameForm" type="text" placeholder="이름이 무엇인가요?" />
+      </form>
+      <h4 class="js-greetings greetings"></h4>
+      <h1>To Do List</h1>
+    </div>
+    <div class="list">
+      <div class="pending">
+        <h3>What To Do</h3>
+        <form class="js-toDoForm toDoForm">
+          <input type="text" placeholder="오늘 할 것!" />
+        </form>
+        <ul class="js-pendingList"></ul>
+      </div>
+      <div class="finished">
+        <h3>Done List</h3>
+        <ul class="js-finishedList"></ul>
+      </div>
+    </div>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
